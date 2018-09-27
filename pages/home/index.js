@@ -1,4 +1,4 @@
-import { h } from 'preact'
+import React from 'react'
 import styled, { css, keyframes } from 'styled-components'
 
 import Landing from './landing'

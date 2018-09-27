@@ -1,4 +1,4 @@
-import { h } from 'preact'
+import React from 'react'
 import { Nav, NavContainer, Menu, Logo } from './styles'
 
 export default () => (

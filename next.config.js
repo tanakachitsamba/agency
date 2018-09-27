@@ -1,3 +1,6 @@
-const withPreact = require('@zeit/next-preact')
+const stage = process.env.UP_STAGE
 
-module.exports = withPreact()
+module.exports = {
+  assetPrefix: stage ? `/${stage}` : ''
+}
+
